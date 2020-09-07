@@ -2,6 +2,14 @@
 
 Application for monitoring task with a due date for you to be aware, made with Flutter.
 
+**Web:** [https://todolist-web-e620d.web.app/index.html](https://todolist-web-e620d.web.app/index.html)
+
+**Android (APK):** [https://1drv.ms/u/s!AvRsPdzus1wzh_pFzqsR1xyHr1F5RQ?e=u2VAxH
+](https://1drv.ms/u/s!AvRsPdzus1wzh_pFzqsR1xyHr1F5RQ?e=u2VAxH
+) 
+
+
+
 ## Basic Overview
 
 The basic idea is that you are able to fill of what task need you want to be done with the timeline, and the app will let you keep track of how much time left for you to accomplish the task.
