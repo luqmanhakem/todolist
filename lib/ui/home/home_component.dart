@@ -132,8 +132,7 @@ class TodoWidget extends ViewModelWidget<HomeViewmodel> {
                                     model.parseDateTime(todoModel.startDate),
                                 endDateTime:
                                     model.parseDateTime(todoModel.endDate),
-                                endTime: model.parseTimeLeft(
-                                    todoModel.startDate, todoModel.endDate),
+                                endTime: model.parseTimeLeft(todoModel.endDate),
                                 hoursSymbol: " hrs ",
                                 minSymbol: " min ",
                                 hoursTextStyle: TextStyle(

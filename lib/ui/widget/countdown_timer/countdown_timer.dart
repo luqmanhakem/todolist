@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 
 /// A Countdown.
 /// 
-/// Clone from 
+/// Clone from https://github.com/wuweijian1997/FlutterCountdownTimer
 class CountdownTimer extends StatefulWidget {
   final bool isCompleted;
   final DateTime startDateTime;

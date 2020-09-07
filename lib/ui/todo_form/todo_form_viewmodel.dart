@@ -51,7 +51,6 @@ class TodoFormViewmodel extends FutureViewModel {
     notifyListeners();
   }
 
-  //============================ METHOD ========================================
   Future<void> _getTodoDetails() async {
     if (_index != null) {
       Box<TodoModel> todoBox = Hive.box<TodoModel>('todoBox');
@@ -64,16 +63,21 @@ class TodoFormViewmodel extends FutureViewModel {
     }
   }
 
+  //============================ METHOD ========================================
+
+  // Parse toIso8601String date to dd MMM yyyy format 
   String parseDate(String unformatdate) {
     DateTime parsedDate = DateTime.parse(unformatdate);
     return DateFormat('dd MMM yyyy').format(parsedDate);
   }
 
+  // Set todo text
   void setTodoText(String text) {
     _todoValue = text;
     notifyListeners();
   }
 
+  // Set start date 
   void setStartDate(DateTime date) async {
     // Check if end date < start date
     if (_endDate != null) if (_endDate.isBefore(date)) {
@@ -88,6 +92,7 @@ class TodoFormViewmodel extends FutureViewModel {
     notifyListeners();
   }
 
+  // Set end date
   void setEndDate(DateTime date) async {
     // Check if end date < start date
     if (_startDate != null) if (date.isBefore(_startDate)) {
@@ -102,6 +107,7 @@ class TodoFormViewmodel extends FutureViewModel {
     notifyListeners();
   }
 
+  // Create & submit todo 
   Future<void> onTapCreateTodo() async {
     // Check if all field filled
     if (!canSubmit) {
@@ -115,8 +121,8 @@ class TodoFormViewmodel extends FutureViewModel {
     // Unwrap db
     Box<TodoModel> todoBox = Hive.box<TodoModel>('todoBox');
 
-    // Create
     if (_todoModel == null && _index == null) {
+      // Create new todo
       await todoBox.add(TodoModel(
         title: _todoValue,
         startDate: _startDate.toIso8601String(),
@@ -124,6 +130,7 @@ class TodoFormViewmodel extends FutureViewModel {
         isComplete: false,
       ));
     } else {
+      // Update todo
       TodoModel todo = todoBox.get(_index);
       todo.title = _todoValue;
       todo.startDate = _startDate.toIso8601String();

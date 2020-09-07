@@ -44,7 +44,6 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       onGenerateRoute: Router().onGenerateRoute,
-      // builder: ExtendedNavigator.b,
       navigatorKey: locator<NavigationService>().navigatorKey,
       home: SplashView(),
     );
