@@ -2,11 +2,9 @@
 
 Application for monitoring task with a due date for you to be aware, made with Flutter.
 
-**Web:** [https://todolist-web-e620d.web.app/index.html](https://todolist-web-e620d.web.app/index.html)
+**Web:** [https://todolist-web-e620d.firebaseapp.com](https://todolist-web-e620d.firebaseapp.com)
 
-**Android (APK):** [https://1drv.ms/u/s!AvRsPdzus1wzh_pFzqsR1xyHr1F5RQ?e=u2VAxH
-](https://1drv.ms/u/s!AvRsPdzus1wzh_pFzqsR1xyHr1F5RQ?e=u2VAxH
-) 
+**Android (APK):** [https://1drv.ms/u/s!AvRsPdzus1wzh_pGhWerGeCM-bdCow?e=90EYwp](https://1drv.ms/u/s!AvRsPdzus1wzh_pGhWerGeCM-bdCow?e=90EYwp) 
 
 
 
