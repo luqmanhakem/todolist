@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 
 /// A Countdown.
-/// 
+///
 /// Clone from https://github.com/wuweijian1997/FlutterCountdownTimer
 class CountdownTimer extends StatefulWidget {
   final bool isCompleted;
@@ -32,7 +32,7 @@ class CountdownTimer extends StatefulWidget {
   static final Widget _defaultEmptyWidget = const Center(
     child: Text(
       'Expired',
-      style: TextStyle(fontWeight: FontWeight.w900, fontSize: 16),
+      style: TextStyle(fontWeight: FontWeight.w900, fontSize: 12),
     ),
   );
 
