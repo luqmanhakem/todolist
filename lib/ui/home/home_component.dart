@@ -85,7 +85,7 @@ class TodoWidget extends ViewModelWidget<HomeViewmodel> {
                               Text(
                                 model.parseDate(todoModel.startDate),
                                 style: TextStyle(
-                                    fontWeight: FontWeight.w900, fontSize: 16),
+                                    fontWeight: FontWeight.w900, fontSize: 12),
                               ),
                             ],
                           ),
@@ -107,7 +107,7 @@ class TodoWidget extends ViewModelWidget<HomeViewmodel> {
                               Text(
                                 model.parseDate(todoModel.endDate),
                                 style: TextStyle(
-                                    fontWeight: FontWeight.w900, fontSize: 16),
+                                    fontWeight: FontWeight.w900, fontSize: 12),
                               ),
                             ],
                           ),
@@ -136,13 +136,13 @@ class TodoWidget extends ViewModelWidget<HomeViewmodel> {
                                 hoursSymbol: " hrs ",
                                 minSymbol: " min ",
                                 hoursTextStyle: TextStyle(
-                                    fontWeight: FontWeight.w900, fontSize: 16),
+                                    fontWeight: FontWeight.w900, fontSize: 12),
                                 hoursSymbolTextStyle: TextStyle(
-                                    fontWeight: FontWeight.w900, fontSize: 16),
+                                    fontWeight: FontWeight.w900, fontSize: 12),
                                 minTextStyle: TextStyle(
-                                    fontWeight: FontWeight.w900, fontSize: 16),
+                                    fontWeight: FontWeight.w900, fontSize: 12),
                                 minSymbolTextStyle: TextStyle(
-                                    fontWeight: FontWeight.w900, fontSize: 16),
+                                    fontWeight: FontWeight.w900, fontSize: 12),
                                 daysSymbolTextStyle: TextStyle(fontSize: 0),
                                 daysTextStyle: TextStyle(fontSize: 0),
                                 secTextStyle: TextStyle(fontSize: 0),
@@ -204,7 +204,7 @@ class TodoWidget extends ViewModelWidget<HomeViewmodel> {
                               'Tick if completed',
                               style: TextStyle(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 14,
+                                  fontSize: 12,
                                   color: Colors.grey[800]),
                             ),
 
