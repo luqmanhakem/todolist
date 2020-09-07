@@ -1,6 +1,6 @@
 # todolist app
 
-Application for monitoring task with a due date for you to be aware, made with Flutter.
+An application to monitor your daily tasks. Complete with a due date settings, to reach your goals within desired timeline. Developed using Flutter.
 
 **Web:** [https://todolist-web-e620d.firebaseapp.com](https://todolist-web-e620d.firebaseapp.com)
 
@@ -10,7 +10,7 @@ Application for monitoring task with a due date for you to be aware, made with F
 
 ## Basic Overview
 
-The basic idea is that you are able to fill of what task need you want to be done with the timeline, and the app will let you keep track of how much time left for you to accomplish the task.
+This application allows you to key in your task, with it's starting and ending date. The apps will set a countdown timer, showing how much time left for you to complete a single task. You're able to add on as many tasks as you have!
 
 ### Basic Functionality
 
@@ -21,7 +21,7 @@ The basic idea is that you are able to fill of what task need you want to be don
 ![mobile#3](https://i.imgur.com/oejpW7K.jpg)
 ![mobile#4](https://i.imgur.com/ZchwAix.jpg)
 
-The three screenshots above show the basic functionality of the app. You will start with a splash screen where in future you can call an API (e.g. check apps versioning). After that, you can view all your to do list and see how much time left to accomplish those task. You can swipe to the left at the task for deleting purpose or you can tap on it to view and update the task. As you tap on add icon, it will navigate you to an empty to do form.
+The above screenshots show the basic functionality of the apps. The first page is a splash screen(also known as API: e.g. check app versioning).The second page is the main screen showing the list of added tasks with it's time left(countdown timer).The third page shows the swipe function, where swiping to the left will give you a delete option. The fourth page is a landing page when you either i) tap on the plus button or ii) tap on the list of task. This page allows you to add in a New to-do-list or Edit current to-do-list.
 
 
 #### Web Screenshot
@@ -31,7 +31,7 @@ The three screenshots above show the basic functionality of the app. You will st
 ![Web #3](https://i.imgur.com/H8FOOSn.jpg)
 ![Web #4](https://i.imgur.com/ij0z86i.jpg)
 
-We extend this project using Flutter Web to demonstrate how Flutter can do! The web apps will acquired similar functionality along with the responsive user interface when resizing.
+We extend this project using Flutter Web to demonstrate the versatility of Flutter! The web application will deploy similar functionality along with the UI resizing.
 
 
 ## Flutter Version Used
