@@ -21,7 +21,7 @@ This application allows you to key in your task, with it's starting and ending d
 ![mobile#3](https://i.imgur.com/oejpW7K.jpg)
 ![mobile#4](https://i.imgur.com/ZchwAix.jpg)
 
-The above screenshots show the basic functionality of the apps. The first page is a splash screen(also known as API: e.g. check app versioning).The second page is the main screen showing the list of added tasks with it's time left(countdown timer).The third page shows the swipe function, where swiping to the left will give you a delete option. The fourth page is a landing page when you either i) tap on the plus button or ii) tap on the list of task. This page allows you to add in a New to-do-list or Edit current to-do-list.
+The above screenshots show the basic functionality of the apps. The first page is a splash screen(In future, we can integrate such as check app versioning). The second page is the main screen showing the list of added tasks with it's time left(countdown timer). The third page shows the swipe function, where swiping to the left will give you a delete option. The fourth page is a landing page when you either i) tap on the plus button or ii) tap on the list of task. This page allows you to add in a new to-do-list or Edit current to-do-list.
 
 
 #### Web Screenshot
